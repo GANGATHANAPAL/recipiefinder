@@ -2,7 +2,7 @@ import { useState } from "react";
 
 
 
-import Recipie from "./recepie";
+import Recepie from "./recepie";
 import Filter from "./filter";
 
 function Home({username}){
@@ -38,7 +38,7 @@ function Home({username}){
             </form>
            
              
-          <Recipie  search={filters.search}
+          <Recepie  search={filters.search}
         levelFilter={filters.level}
         ratingFilter={filters.rating}
         timeFilter={filters.time}/>
